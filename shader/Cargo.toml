@@ -1,0 +1,15 @@
+[package]
+name = "shader"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+spirv-std = { version = "0.10.0-alpha.1" }
+glam = { version = "0.33.0", default-features = false, features = [
+  "u32",
+  "i32",
+  "f64",
+] }

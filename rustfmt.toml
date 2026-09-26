@@ -1,0 +1,9 @@
+condense_wildcard_suffixes = true
+format_code_in_doc_comments = true
+format_strings = true
+hex_literal_case = "Lower"
+float_literal_trailing_zero = "IfNoPostfix"
+imports_granularity = "Module"
+group_imports = "StdExternalCrate"
+reorder_impl_items = true
+reorder_imports = true
